@@ -21,11 +21,11 @@ class Dashboard extends Component {
     const {active} = this.state;
     switch (active) {
       case OPTIONS.home:
-        return <Home />;
+        return <Home navigation={this.props.navigation} />;
       case OPTIONS.calendar:
-        return <Notification />;
+        return <Notification navigation={this.props.navigation} />;
       case OPTIONS.settings:
-        return <Settings />;
+        return <Settings navigation={this.props.navigation} />;
       default:
         return <Text>Invalid Option</Text>;
     }
