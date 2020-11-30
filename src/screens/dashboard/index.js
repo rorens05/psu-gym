@@ -60,7 +60,7 @@ class Dashboard extends Component {
           />
           <TabButton
             source={require('../../assets/images/tab_account_80x80.png')}
-            title="Settings"
+            title="About"
             active={active === OPTIONS.settings}
             onPress={() => this.setState({active: OPTIONS.settings})}
           />

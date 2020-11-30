@@ -11,7 +11,7 @@ export default function CategoryInfo(props) {
   console.log({item})
   return (
     <View style={{backgroundColor: BACKGROUND_COLOR, flex: 1}}>
-      <Header title={`Category Info`}/>
+      <Header title={item.title}/>
       <ScrollView style={{flex: 1, }}>
         {item.type == "WORKOUT" && <WorkoutList item={item} navigation={props.navigation}/>}
         {item.type == "DIET" && <DietInfo data={item.data} navigation={props.navigation}/>}

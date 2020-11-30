@@ -338,27 +338,44 @@ Dinner:
     image: require('../assets/images/men.jpg'),
     categories: [
       {
-        title: 'WEIGHT LOSS WORKOUTS',
+        title: 'MUSCLE GAIN WORKOUT',
         image: require('../assets/images/menworkout1.jpg'),
         type: 'WORKOUT',
         data: [
           {
-            title: "DAY 1: UPPER BODY"
+            title: "DAY 1: CHEST + BACK",
+            exercises: [
+              {
+                image: require('../assets/images/widepushup.jpg'),
+                title: 'Wide Pushups',
+                description: 'Place your hands on the floor just wider than shoulder width and at chest height then step your feet back behind you and lift your knees. Bend at the elbows to lower your body towards the floor. Use your full range of motion to lower your chest between your hands, close to the floor as you can, then push your hands into the floor, keeping your body tensed, to move it up away from the floor back to the start position. 3 sets 10-12 reps'
+              },
+              {
+                image: require('../assets/images/widegrippullup.jpg'),
+                title: 'Wide Grip Pull Ups',
+                description: 'Grab a pull-up bar with your palms facing away from your body. and your hands shoulder-width apart. allow your arms to hang in a full extended position. Keeping your shoulders down and away from your ears. pull yourself up until your chin clears the bar. Slowly lower yourself to the starting position. 4 sets x 6 - 8 reps'
+              },
+              {
+                image: require('../assets/images/chairdips.jpg'),
+                title: 'Chair Dips',
+                description: 'For this exercise you will need to place a bench behind your back. With the bench perpendicular to your body, and while looking away from it, hold on the bench on its edge with the hands fully extended, separated at shoulder width. The legs will be extended forward, bent at the waist and perpendicular to your torso. This will be your starting position. Slowly lower your body as you inhale by bending at elbows until you lower yourself far enough to where there is an angle slightly smaller than 80 degrees between the upper arm and the forearms should always be pointing down. Using your tricept to bring your torso up again, lift yourself back to the starting position.'
+              }
+            ]
           },
           {
-            title: "DAY 2: ABS + CORE"
+            title: "DAY 2: REST"
           },
           {
-            title: "DAY 3: REST"
+            title: "DAY 3: SHOULDER + ARMS"
           },
           {
-            title: "DAY 4: LOWER BODY"
+            title: "DAY 4: ABS"
           },
           {
-            title: "DAY 5: ABS + CORE"
+            title: "DAY 5: REST"
           },
           {
-            title: "DAY 6: CARDIO"
+            title: "DAY 6: LEGS"
           },
           {
             title: "DAY 7: REST",

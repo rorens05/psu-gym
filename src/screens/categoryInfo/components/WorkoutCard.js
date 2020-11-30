@@ -2,9 +2,10 @@ import React from 'react'
 import { Text, TouchableOpacity, View } from 'react-native'
 import { PRIMARY_COLOR } from '../../../constants/colors'
 
-export default function WorkoutCard({item}) {
+export default function WorkoutCard({item, onPress}) {
   return (
     <TouchableOpacity 
+      onPress={onPress}
       activeOpacity={0.6} 
       style={{
         backgroundColor: 'red', 
