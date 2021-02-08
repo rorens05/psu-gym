@@ -12,7 +12,7 @@ class Splashscreen extends Component {
   componentDidMount = () => {
     setTimeout(() => {
       this.props.navigation.replace('Dashboard');
-    }, 5000);
+    }, 1000);
   };
 
   render() {
