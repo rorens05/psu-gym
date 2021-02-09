@@ -56,7 +56,7 @@ export default function ExerciseAction({onDone, maxCount}) {
               alert('Exercise saved');
             }}>
             <Text style={{color: 'white', fontSize: 16}}>
-              {starting ? 'STOP' : 'START'}
+              {starting ? 'STOP' : 'SAVE'}
             </Text>
           </TouchableOpacity>
         </View>
