@@ -20,6 +20,7 @@ export const data = {
                 description: `Squeeze your glutes, thighs, and ankles together, and brace your core. Keeping your elbows pulled in (as much as you can), lower your body until your chest is almost touching the floor. Push your body back up and repeat. 
                   3 Set 10/12 REPS
                   `,
+                count: 12,
               },
               {
                 image: require('../assets/images/wide-grip-pull-up-men.gif'),
@@ -27,6 +28,7 @@ export const data = {
                 description: `Grasp the bar with an overhand grip with your hands just wider than shoulder-width apart. Let your body hang straight down with your arms fully extended. Pull up and squeeze your lats until your chin is over the bar, before lowering slowly to the start position without swinging.
                   3 Sets 6/8 REPS
                   `,
+                count: 8,
               },
               {
                 image: require('../assets/images/chair-dip-men.gif'),
@@ -34,6 +36,7 @@ export const data = {
                 description: `Move your torso forward off the chair with your arms extended. Your buttocks should hover over the floor and your knees should be slightly bent. Your heels should touch the floor a few inches in front of your knees. Breathe in as you slowly lower your body, hinging at the elbows until each forms a 90-degree angle.
                   3 SET 2/4 REPS
                   `,
+                count: 4,
               },
               {
                 image: require('../assets/images/decline-push-up-men.gif'),
@@ -43,6 +46,7 @@ export const data = {
                 Push into the floor to return to starting position, extending your elbows.
                 Complete 2 to 4 sets of 8 to 20 repetitions.
                   `,
+                count: 20,
               },
             ],
           },
@@ -60,6 +64,7 @@ export const data = {
                 While focusing on the shoulders, slowly rotate your arms in a circular motion. Start with small circles. Gradually increase the size of the circles.
                 4 SET 4/8 REPS
                   `,
+                count: 8,
               },
               {
                 image: require('../assets/images/chair-dip-men.gif'),
@@ -67,6 +72,7 @@ export const data = {
                 description: `Move your torso forward off the chair with your arms extended. Your buttocks should hover over the floor and your knees should be slightly bent. Your heels should touch the floor a few inches in front of your knees. Breathe in as you slowly lower your body, hinging at the elbows until each forms a 90-degree angle.
                   3 SET 2/4 REPS
                   `,
+                count: 4,
               },
               {
                 image: require('../assets/images/decline-push-up-men.gif'),
@@ -76,6 +82,7 @@ export const data = {
                 Push into the floor to return to starting position, extending your elbows.
                 Complete 2 to 4 sets of 8 to 20 repetitions.
                   `,
+                count: 20,
               },
               {
                 image: require('../assets/images/plank-men.gif'),
@@ -83,6 +90,8 @@ export const data = {
                 description: `Get into pushup position on the floor
                 Now bend your elbows 90° and rest your weight on your forearms. Your elbows should be directly beneath your shoulders, and your body should form a straight line from your head to your feet. Hold the position for as long as you can. Your goal should be to hold it for two minutes.
                   `,
+
+                count: 120,
               },
             ],
           },
@@ -96,6 +105,8 @@ export const data = {
                 description: `Grab a pullup bar and lower yourself into a dead hang. Straighten your legs and pull your pelvis back slightly. Tense your core and raise your legs until your thighs are parallel with the floor. Hold for a count, then slowly lower your legs back to the starting position. 
                 REPEAT 12-15 times
                   `,
+
+                count: 15,
               },
               {
                 image: require('../assets/images/crunch.gif'),
@@ -103,12 +114,16 @@ export const data = {
                 description: `Lie on your back, knees bent and feet flat on the floor. Put your hands behind your head, elbows facing out. With your low back on the floor, use your ab muscles to lift your upper body as far as you can. Hold the pose, then slowly return to the floor.
                 REPEAT FOR 10-12 REPS
                   `,
+
+                count: 12,
               },
               {
                 image: require('../assets/images/side-plank-men.gif'),
                 title: 'SIDE PLANK',
                 description: `Start on your side with your feet together and one forearm directly below your shoulder. Contract your core and raise your hips until your body is in a straight line from head to feet. Hold the position for 2 minutes without letting your hips drop for the allotted time for each set, then repeat on the other side.
                 `,
+
+                count: 120,
               },
               {
                 image: require('../assets/images/leg-raise-men.gif'),
@@ -116,6 +131,8 @@ export const data = {
                 description: `Lie faceup on the floor with your legs straight and your palms facing down. This is the starting position. Without bending your legs, lift them toward the ceiling until your hips just leave the floor. Then lower your legs down to the starting position again.
                 2 SETS REPEAT FOR 10-12 REPS
                   `,
+
+                count: 12,
               },
             ],
           },
@@ -133,6 +150,8 @@ export const data = {
                 description: `stand tall with feet hip width apart engage core take a big step forward with right leg and start to shift weight forward so heel hits the floor first . Lower body until right thigh is parallel to floor and right shin is vertical press into right heel to drive back up to starting position .
                 Repeat 3 sets with 15 reps each
                   `,
+
+                count: 15,
               },
               {
                 image: require('../assets/images/squats-men.gif'),
@@ -140,6 +159,8 @@ export const data = {
                 description: `Stand with your feet shoulder width apart and hold a barbell behind you at arms length. While keeping your head up and back straight, squat until your thighs are parallel to the floor. – Drive through your heels to stand back up as you breathe out. 
                 REPEAT FOR 3 SETS 15 REPS
                   `,
+
+                count: 15,
               },
               {
                 image: require('../assets/images/calf-raise.gif'),
@@ -147,6 +168,8 @@ export const data = {
                 description: `Stand tall and support a barbell on your upper back, with your toes facing forward. Raise both heels and contract your calves on each leg. Gradually return to the starting position.
                 REPEAT 4 SETS WITH 10 REPS
                   `,
+
+                count: 10,
               },
               {
                 image: require('../assets/images/wall-sit-men.gif'),
@@ -154,6 +177,8 @@ export const data = {
                 description: `wall sitting places their back against a wall with their feet shoulder-width apart and a little ways out from the wall. Then, keeping their back against the wall, they lower their hips until their knees form right angles. This is a very intense work out for the quadriceps muscles.
                 Repeat 3 set X 12 Reps
                   `,
+
+                count: 12,
               },
             ],
           },
@@ -293,6 +318,8 @@ export const data = {
                 description: `Squeeze your glutes, thighs, and ankles together, and brace your core. Keeping your elbows pulled in (as much as you can), lower your body until your chest is almost touching the floor. Push your body back up and repeat. 
                   3 Set 10/12 REPS
                   `,
+
+                count: 12,
               },
               {
                 image: require('../assets/images/chair-dip-men.gif'),
@@ -300,6 +327,7 @@ export const data = {
                 description: `Move your torso forward off the chair with your arms extended. Your buttocks should hover over the floor and your knees should be slightly bent. Your heels should touch the floor a few inches in front of your knees. Breathe in as you slowly lower your body, hinging at the elbows until each forms a 90-degree angle.
                   3 SET 2/4 REPS
                   `,
+                count: 4,
               },
               {
                 image: require('../assets/images/inclined-push-up-men.gif'),
@@ -307,6 +335,7 @@ export const data = {
                 description: `Lean in slightly and place your hands on the wall just wider than shoulder width. Slowly and deliberately bend the elbows and move in as close to the wall as possible, inhaling. Slowly and deliberately push off the wall until your elbows are straight, but not locked. Exhale as you push up.
                   3 SET 15 REPS
                   `,
+                count: 15,
               },
               {
                 image: require('../assets/images/wide-grip-pull-up-men.gif'),
@@ -314,6 +343,7 @@ export const data = {
                 description: `Grasp the bar with an overhand grip with your hands just wider than shoulder-width apart. Let your body hang straight down with your arms fully extended. Pull up and squeeze your lats until your chin is over the bar, before lowering slowly to the start position without swinging.
                   3 Sets 6/8 REPS
                   `,
+                count: 8,
               },
             ],
           },
@@ -326,6 +356,7 @@ export const data = {
                 description: `Grasp the bar with an overhand grip with your hands just wider than shoulder-width apart. Let your body hang straight down with your arms fully extended. Pull up and squeeze your lats until your chin is over the bar, before lowering slowly to the start position without swinging.
                   3 Sets 6/8 REPS
                   `,
+                count: 8,
               },
               {
                 image: require('../assets/images/arm-circle-men.gif'),
@@ -334,6 +365,7 @@ export const data = {
                 While focusing on the shoulders, slowly rotate your arms in a circular motion. Start with small circles. Gradually increase the size of the circles.
                 4 SET 4/8 REPS
                   `,
+                count: 8,
               },
               {
                 image: require('../assets/images/widepushupmen.gif'),
@@ -341,6 +373,7 @@ export const data = {
                 description: `Squeeze your glutes, thighs, and ankles together, and brace your core. Keeping your elbows pulled in (as much as you can), lower your body until your chest is almost touching the floor. Push your body back up and repeat. 
                   3 Set 10/12 REPS
                   `,
+                count: 12,
               },
             ],
           },
@@ -357,6 +390,7 @@ export const data = {
                 description: `stand tall with feet hip width apart engage core take a big step forward with right leg and start to shift weight forward so heel hits the floor first . Lower body until right thigh is parallel to floor and right shin is vertical press into right heel to drive back up to starting position .
                 Repeat 3 sets with 15 reps each
                   `,
+                count: 15,
               },
               {
                 image: require('../assets/images/squats-men.gif'),
@@ -364,6 +398,7 @@ export const data = {
                 description: `Stand with your feet shoulder width apart and hold a barbell behind you at arms length. While keeping your head up and back straight, squat until your thighs are parallel to the floor. – Drive through your heels to stand back up as you breathe out. 
                 REPEAT FOR 3 SETS 15 REPS
                   `,
+                count: 15,
               },
               {
                 image: require('../assets/images/calf-raise.gif'),
@@ -371,6 +406,7 @@ export const data = {
                 description: `Stand tall and support a barbell on your upper back, with your toes facing forward. Raise both heels and contract your calves on each leg. Gradually return to the starting position.
                 REPEAT 4 SETS WITH 10 REPS
                   `,
+                count: 10,
               },
               {
                 image: require('../assets/images/wall-sit-men.gif'),
@@ -378,6 +414,7 @@ export const data = {
                 description: `wall sitting places their back against a wall with their feet shoulder-width apart and a little ways out from the wall. Then, keeping their back against the wall, they lower their hips until their knees form right angles. This is a very intense work out for the quadriceps muscles.
                 Repeat 3 set X 12 Reps
                   `,
+                count: 12,
               },
             ],
           },
@@ -393,6 +430,7 @@ export const data = {
                 Push into the floor to return to starting position, extending your elbows.
                 Complete 2 to 4 sets of 8 to 20 repetitions.
                   `,
+                count: 20,
               },
               {
                 image: require('../assets/images/chair-dip-men.gif'),
@@ -400,6 +438,7 @@ export const data = {
                 description: `Move your torso forward off the chair with your arms extended. Your buttocks should hover over the floor and your knees should be slightly bent. Your heels should touch the floor a few inches in front of your knees. Breathe in as you slowly lower your body, hinging at the elbows until each forms a 90-degree angle.
                 3 SET 2/4 REPS
                   `,
+                count: 4,
               },
               {
                 image: require('../assets/images/close-push-up.gif'),
@@ -407,6 +446,7 @@ export const data = {
                 description: `Start in pushup position, glutes squeezed and abs tight, hands slightly narrower than shoulder-width. Your shoulders, elbows, and wrists should be stacked. Keeping your elbows close to your body, lower into the bottom of a pushup. ... Lower into another close-grip pushup, then drive straight up.
                 4 SETS WITH 15 REPS
                 `,
+                count: 15,
               },
               {
                 image: require('../assets/images/arm-circle-men.gif'),
@@ -415,6 +455,7 @@ export const data = {
                 While focusing on the shoulders, slowly rotate your arms in a circular motion. Start with small circles. Gradually increase the size of the circles.
                 4 SET 4/8 REPS
                   `,
+                count: 8,
               },
             ],
           },
@@ -428,6 +469,7 @@ export const data = {
                 description: `Grab a pullup bar and lower yourself into a dead hang. Straighten your legs and pull your pelvis back slightly. Tense your core and raise your legs until your thighs are parallel with the floor. Hold for a count, then slowly lower your legs back to the starting position. 
                 REPEAT 12-15 times
                   `,
+                count: 15,
               },
               {
                 image: require('../assets/images/crunch.gif'),
@@ -435,12 +477,14 @@ export const data = {
                 description: `Lie on your back, knees bent and feet flat on the floor. Put your hands behind your head, elbows facing out. With your low back on the floor, use your ab muscles to lift your upper body as far as you can. Hold the pose, then slowly return to the floor.
                 REPEAT FOR 10-12 REPS
                   `,
+                count: 12,
               },
               {
                 image: require('../assets/images/side-plank-men.gif'),
                 title: 'SIDE PLANK',
                 description: `Start on your side with your feet together and one forearm directly below your shoulder. Contract your core and raise your hips until your body is in a straight line from head to feet. Hold the position for 2 minutes without letting your hips drop for the allotted time for each set, then repeat on the other side.
                 `,
+                count: 120,
               },
               {
                 image: require('../assets/images/leg-raise-men.gif'),
@@ -448,6 +492,7 @@ export const data = {
                 description: `Lie faceup on the floor with your legs straight and your palms facing down. This is the starting position. Without bending your legs, lift them toward the ceiling until your hips just leave the floor. Then lower your legs down to the starting position again.
                 2 SETS REPEAT FOR 10-12 REPS
                   `,
+                count: 12,
               },
             ],
           },
@@ -460,6 +505,7 @@ export const data = {
                 description: `Get into pushup position on the floor
                 Now bend your elbows 90° and rest your weight on your forearms. Your elbows should be directly beneath your shoulders, and your body should form a straight line from your head to your feet. Hold the position for as long as you can. Your goal should be to hold it for two minutes.
                   `,
+                count: 120,
               },
               {
                 image: require('../assets/images/wall-sit-men.gif'),
@@ -467,6 +513,7 @@ export const data = {
                 description: `wall sitting places their back against a wall with their feet shoulder-width apart and a little ways out from the wall. Then, keeping their back against the wall, they lower their hips until their knees form right angles. This is a very intense work out for the quadriceps muscles.
                 Repeat 3 set X 12 Reps
                   `,
+                count: 12,
               },
             ],
           },

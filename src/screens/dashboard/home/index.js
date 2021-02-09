@@ -1,8 +1,9 @@
-import React, {Component} from 'react';
+import React, {useEffect} from 'react';
 import {View, Image, Dimensions, TouchableOpacity} from 'react-native';
 import {data} from '../../../constants/data';
 import Header from '../../../global/navigations/Header';
 const {width} = Dimensions.get('screen');
+import Tts from 'react-native-tts';
 
 export default function Home({navigation}) {
   return (

@@ -18,6 +18,7 @@ export const WOMENDATA = {
               Push back to the starting position and repeat.
               3 SET with 10-12 Reps
               `,
+              count: 12,
             },
             {
               image: require('../assets/images/jumping-jacks.gif'),
@@ -29,6 +30,7 @@ export const WOMENDATA = {
                 Jump back to starting position.
                 Repeat.
                 2 Set with 20-30 Reps`,
+              count: 30,
             },
             {
               image: require('../assets/images/chair-dips.gif'),
@@ -36,6 +38,7 @@ export const WOMENDATA = {
               description: `Move your torso forward off the chair with your arms extended. Your buttocks should hover over the floor and your knees should be slightly bent. Your heels should touch the floor a few inches in front of your knees. Breathe in as you slowly lower your body, hinging at the elbows until each forms a 90-degree angle.
               3 SET 2/4 REPS
               `,
+              count: 4,
             },
             {
               image: require('../assets/images/arm-circle.gif'),
@@ -44,6 +47,7 @@ export const WOMENDATA = {
               While focusing on the shoulders, slowly rotate your arms in a circular motion. Start with small circles. Gradually increase the size of the circles.
               4 SET 4/8 REPS
               `,
+              count: 8,
             },
           ],
         },
@@ -57,6 +61,7 @@ export const WOMENDATA = {
               description: `Your torso back about 45 degrees. This will be your starting position. Now exhale and bring your knees in toward you while simultaneously leaning your torso up toward your knees.
               3 Set 10-12 Reps
               `,
+              count: 12,
             },
             {
               image: require('../assets/images/no-name.gif'),
@@ -66,6 +71,7 @@ export const WOMENDATA = {
               Place your hands lightly on the sides of your head; don&#39;t knit your fingers behind. ...
               Lift one leg just off the ground and extend it out.
               2 Set with 10-12 Reps.`,
+              count: 12,
             },
             {
               image: require('../assets/images/side-plank.gif'),
@@ -90,6 +96,7 @@ export const WOMENDATA = {
               keeping your head up and back straight, squat until your thighs are parallel to the floor. – Drive
               through your heels to stand back up as you breathe out.
               REPEAT FOR 3 SETS 15 REPS`,
+              count: 15,
             },
             {
               image: require('../assets/images/side-plank-2.gif'),
@@ -99,6 +106,7 @@ export const WOMENDATA = {
               As you exhale, bring the leg back down to meet the left.
               Repeat 10-12 times, then switch to the other side.
               `,
+              count: 12,
             },
             {
               image: require('../assets/images/lunges.gif'),
@@ -107,6 +115,7 @@ export const WOMENDATA = {
               shift weight forward so heel hits the floor first . Lower body until right thigh is parallel to floor and
               right shin is vertical press into right heel to drive back up to starting position .
               Repeat 3 sets with 15 reps each.`,
+              count: 15,
             },
           ],
         },
@@ -122,6 +131,7 @@ export const WOMENDATA = {
               Place your hands lightly on the sides of your head; don&#39;t knit your fingers behind. ...
               Lift one leg just off the ground and extend it out.
               2 Set with 10-12 Reps.`,
+              count: 12,
             },
             {
               image: require('../assets/images/leg-raise.gif'),
@@ -129,6 +139,7 @@ export const WOMENDATA = {
               description: `Lie faceup on the floor with your legs straight and your palms facing down. This is the starting position. Without bending your legs, lift them toward the ceiling until your hips just leave the floor. Then lower your legs down to the starting position again.
               2 SETS REPEAT FOR 10-12 REPS
               `,
+              count: 12,
             },
             {
               image: require('../assets/images/abs-and-core.gif'),
@@ -136,6 +147,7 @@ export const WOMENDATA = {
               description: `Your torso back about 45 degrees. This will be your starting position. Now exhale and bring your knees in toward you while simultaneously leaning your torso up toward your knees.
               3 Set 10-12 Reps
               `,
+              count: 12,
             },
           ],
         },
@@ -307,6 +319,7 @@ Dinner:
               While focusing on the shoulders, slowly rotate your arms in a circular motion. Start with small circles. Gradually increase the size of the circles.
               4 SET 4/8 REPS
               `,
+              count: 8,
             },
             {
               image: require('../assets/images/jumping-jacks.gif'),
@@ -318,6 +331,7 @@ Dinner:
                 Jump back to starting position.
                 Repeat.
                 2 Set with 20-30 Reps`,
+              count: 30,
             },
           ],
         },
@@ -331,6 +345,7 @@ Dinner:
               While focusing on the shoulders, slowly rotate your arms in a circular motion. Start with small circles. Gradually increase the size of the circles.
               4 SET 4/8 REPS
               `,
+              count: 8,
             },
             {
               image: require('../assets/images/jumping-jacks.gif'),
@@ -342,6 +357,7 @@ Dinner:
                 Jump back to starting position.
                 Repeat.
                 2 Set with 20-30 Reps`,
+              count: 30,
             },
           ],
         },
@@ -357,6 +373,7 @@ Dinner:
               your feet. Hold the position for as long as you can. Your goal should be to hold it for two
               minutes.
               `,
+              count: 120,
             },
             {
               image: require('../assets/images/squats.gif'),
@@ -365,6 +382,7 @@ Dinner:
               keeping your head up and back straight, squat until your thighs are parallel to the floor. – Drive
               through your heels to stand back up as you breathe out.
               REPEAT FOR 3 SETS 15 REPS`,
+              count: 15,
             },
             {
               image: require('../assets/images/no-name.gif'),
@@ -374,6 +392,7 @@ Dinner:
               Place your hands lightly on the sides of your head; don&#39;t knit your fingers behind. ...
               Lift one leg just off the ground and extend it out.
               2 Set with 10-12 Reps.`,
+              count: 12,
             },
           ],
         },
@@ -394,6 +413,7 @@ Dinner:
               Push back to the starting position and repeat.
               3 SET with 10-12 Reps
               `,
+              count: 12,
             },
             {
               image: require('../assets/images/chair-dips.gif'),
@@ -403,6 +423,8 @@ Dinner:
               in front of your knees. Breathe in as you slowly lower your body, hinging at the elbows until each
               forms a 90-degree angle.
               3 SET 2/4 REPS`,
+
+              count: 4,
             },
             {
               image: require('../assets/images/lunges.gif'),
@@ -411,6 +433,7 @@ Dinner:
               shift weight forward so heel hits the floor first . Lower body until right thigh is parallel to floor and
               right shin is vertical press into right heel to drive back up to starting position .
               Repeat 3 sets with 15 reps each.`,
+              count: 15,
             },
           ],
         },
@@ -477,7 +500,7 @@ Dinner:
       Snack							Drink a glass of whole milk with a cookie for a post-dinner snack.
       
       DAY 3
-                      Breakfast 
+      Breakfast 
       For day 3 breakfast have a bowl of whole grain cereal with whole milk and top it with sliced mango.
       
       Snack

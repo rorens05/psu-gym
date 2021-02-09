@@ -24,7 +24,8 @@ export default function Exercises(props) {
       <ScrollView style={{flex: 1}}>
         <Exercise selectedExercise={exercise.exercises[selectedIndex]} />
         <ExerciseAction
-          onDone={async () => {
+          maxCount={exercise.exercises[selectedIndex].count}
+          onDone={async (weight) => {
             console.log(
               `${title.toUpperCase()} ${category} ${
                 exercise.exercises[selectedIndex].title
@@ -40,6 +41,7 @@ export default function Exercises(props) {
               name: `${title.toUpperCase()} ${category} ${
                 exercise.exercises[selectedIndex].title
               }`,
+              weight,
               date: new Date(),
             });
 

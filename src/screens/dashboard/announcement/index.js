@@ -86,6 +86,9 @@ class Notification extends Component {
                     let itemDate = new Date(item.date);
                     return itemDate > startDate && itemDate < endDate;
                   })
+                  .sort((a, b) => {
+                    new Date(a.date) > new Date(b.date);
+                  })
                   .map((item, index) => (
                     <ExerciseHistoryItem item={item} key={index} />
                   ))}

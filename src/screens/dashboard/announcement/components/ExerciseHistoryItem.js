@@ -16,7 +16,14 @@ export default function ExerciseHistoryItem({item}) {
         borderTopColor: PRIMARY_COLOR,
         borderTopWidth: 5,
       }}>
-      <Text style={{fontSize: 18}}>{item.name}</Text>
+      <Text style={{fontSize: 18}}>
+        <Text style={{fontWeight: 'bold'}}>EXERCISE: </Text>
+        {item.name}
+      </Text>
+      <Text style={{fontSize: 18}}>
+        <Text style={{fontWeight: 'bold'}}>{'WEIGHT:  '}</Text>
+        {item.weight}
+      </Text>
     </View>
   );
 }
