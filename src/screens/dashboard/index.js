@@ -59,8 +59,8 @@ class Dashboard extends Component {
             onPress={() => this.setState({active: OPTIONS.calendar})}
           />
           <TabButton
-            source={require('../../assets/images/tab_account_80x80.png')}
-            title="About"
+            source={require('../../assets/images/food-guide-icon.png')}
+            title="Food Guide"
             active={active === OPTIONS.settings}
             onPress={() => this.setState({active: OPTIONS.settings})}
           />

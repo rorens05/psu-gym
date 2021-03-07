@@ -11,7 +11,7 @@ import SplashLoginContainer from '../../global/containers/SplashLoginContainer';
 class Splashscreen extends Component {
   componentDidMount = () => {
     setTimeout(() => {
-      this.props.navigation.replace('Dashboard');
+      this.props.navigation.replace('Form');
     }, 1000);
   };
 
